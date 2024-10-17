@@ -1,5 +1,7 @@
 # AI 绘图入门：搭建 Stable Diffusion WebUI
 
+视频：[AI 绘图入门：搭建 Stable Diffusion WebUI](https://www.bilibili.com/video/BV1jPyuYMEuf/)
+
 ## 安装步骤
 
 0. 国内访问 github.com 拉取代码可能会出现网络问题，强烈建议拉到本文档末尾，查看“修改系统 hosts 加速 GitHub 访问”
@@ -23,6 +25,7 @@ conda init
 2. 克隆代码，创建 Python 运行环境
 
 ```
+# 进入存放项目的文件夹，我这里是 .\Downloads\AI-Tools
 cd .\Downloads\AI-Tools
 # 克隆 stable-diffusion-webui 项目的代码仓库到本地 SD-WebUI 目录
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git SD-WebUI
