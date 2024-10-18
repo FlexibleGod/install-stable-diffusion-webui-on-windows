@@ -28,7 +28,7 @@ conda init
 # 进入存放项目的文件夹，我这里是 .\Downloads\AI-Tools
 cd .\Downloads\AI-Tools
 # 克隆 stable-diffusion-webui 项目的代码仓库到本地 SD-WebUI 目录
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git SD-WebUI
+git clone --depth 1 https://github.com/AUTOMATIC1111/stable-diffusion-webui.git SD-WebUI
 
 # 创建一个名为 SD-WebUI 的 Python 运行环境，Python 版本为 3.10
 # 注意：目前 SD WebUI 项目仅支持 Python 3.10，不要用太新的 Python 版本
